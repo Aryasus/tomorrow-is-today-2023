@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour {
     }
     void Update()
     {
-        
+
         Move();
         TakeInput();
 
@@ -84,7 +84,7 @@ public class PlayerMovement : MonoBehaviour {
         
         IEnumerator attenteDash(){
             peutDash = false;
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(2);
             peutDash = true;
         }
 }
