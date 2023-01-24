@@ -8,8 +8,7 @@ public class PlayerMovement : MonoBehaviour {
     public float speed;
     private Vector2 direction;
     private Animator animator;
-
-
+    bool peutDash = true;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -17,6 +16,7 @@ public class PlayerMovement : MonoBehaviour {
     }
     void Update()
     {
+
         Move();
         TakeInput();
 
@@ -26,7 +26,12 @@ public class PlayerMovement : MonoBehaviour {
 
     private void Move()
         {
-            transform.Translate(direction * speed * Time.deltaTime);
+            int dash = 1;
+            if(Input.GetButton("Jump") && peutDash){
+                dash = 70;
+                StartCoroutine(attenteDash());
+            }
+            transform.Translate(direction * speed * Time.deltaTime * dash);
 
             if (direction.x != 0 || direction.y != 0)
             {
@@ -47,9 +52,8 @@ public class PlayerMovement : MonoBehaviour {
             if (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.UpArrow))
             {
                 direction += Vector2.up;
-
-
             }
+
             else if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.LeftArrow))
             {
                 direction += Vector2.left;
@@ -76,7 +80,11 @@ public class PlayerMovement : MonoBehaviour {
             animator.SetFloat("yDir", direction.y);
             //print("x= " + animator.GetFloat("xDir"));
             //print("y= " + animator.GetFloat("yDir"));
+        }    
+        
+        IEnumerator attenteDash(){
+            peutDash = false;
+            yield return new WaitForSeconds(2);
+            peutDash = true;
         }
-
-    
 }
