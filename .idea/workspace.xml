@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="790b7bec-cc61-487d-b5c4-88329c02d39e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_down.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_down.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_left.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_left.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_up.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Idle_up.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Player_Movement.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Player_Movement.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_down.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_down.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_left.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_left.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_up.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Animations/Walk_up.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Lapin Alice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Lapin Alice.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune coté vers la droite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune coté vers la droite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune coté vers la gauche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune coté vers la gauche.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune de dos 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune de dos 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche JD levé.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche JD levé.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche JG levé.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche JG levé.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche de dos JD levé 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche de dos JD levé 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche de dos JG levé 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Jeune marche de dos JG levé 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux coté vers la droite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux coté vers la droite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux coté vers la gauche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux coté vers la gauche.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche JD levé.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche JD levé.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche JG levé.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche JG levé.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche de dos JD levé.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche de dos JD levé.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche de dos JG levé.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P Vieux marche de dos JG levé.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P vieux 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P vieux 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P vieux de dos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P vieux de dos.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P vieux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso P vieux.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso_P_Vieux_marche_Gauche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Import/Perso_P_Vieux_marche_Gauche.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Scripts/PlayerMovement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomorrow is today 2023/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/tomorrow is today 2023/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomorrow is today 2023/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/tomorrow is today 2023/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2KmFxgz89rUTqf1V887EFvV43NA" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="790b7bec-cc61-487d-b5c4-88329c02d39e" name="Changes" comment="" />
+      <created>1674572101030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674572101030</updated>
+      <workItem from="1674572103008" duration="12000" />
+    </task>
+    <servers />
+  </component>
+</project>
