@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             int dash = 1;
             if(Input.GetButton("Jump") && peutDash){
-                dash = 100;
+                dash = 300;
                 StartCoroutine(attenteDash());
             }
             transform.Translate(direction * speed * Time.deltaTime * dash);
