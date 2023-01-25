@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour {
     private void Move()
         {
             int dash = 1;
-            if(Input.GetButton("Jump") && peutDash){
+            if(Input.GetButtonDown("Jump") && peutDash){
                 rigibody.AddForce(direction * dashSpeed);
                 StartCoroutine(attenteDash());
             }
