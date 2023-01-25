@@ -6,8 +6,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public float speed;
+    public float dashSpeed;
     private Vector2 direction;
     private Animator animator;
+    public Rigidbody2D rigibody;
     bool peutDash = true;
     void Start()
     {
@@ -27,11 +29,15 @@ public class PlayerMovement : MonoBehaviour {
     private void Move()
         {
             int dash = 1;
-            if(Input.GetButton("Jump") && peutDash){
-                dash = 300;
+            if(Input.GetButtonDown("Jump") && peutDash){
+                rigibody.AddForce(direction * dashSpeed);
                 StartCoroutine(attenteDash());
             }
-            transform.Translate(direction * speed * Time.deltaTime * dash);
+            Vector2 pos = rigibody.position;
+            pos += direction * speed * Time.deltaTime;
+            rigibody.velocity = direction * speed * Time.deltaTime;
+            Debug.Log(pos);
+            //transform.Translate(direction * speed * Time.deltaTime * dash);
 
             if (direction.x != 0 || direction.y != 0)
             {
@@ -70,7 +76,7 @@ public class PlayerMovement : MonoBehaviour {
 
 
             }
-            
+            Debug.Log(direction);
             
         }
         private void SetAnimatorMovement(Vector2 direction)
