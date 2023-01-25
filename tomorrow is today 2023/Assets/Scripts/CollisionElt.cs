@@ -13,11 +13,12 @@ public class CollisionElt : MonoBehaviour
         }
 
         else if(collision.name == "Vent"){
-           Destroy(GameObject.Find("Vent"),0.5f);
+            GameObject.Find("Vent").SetActive(false);
+           //Destroy(GameObject.Find("Vent"),0.5f);
         }
 
-        else if(collision.name == "Foudre"){
-           Destroy(GameObject.Find("Foudre"),0.5f);
+        else if(collision.name == "Orage"){
+           Destroy(GameObject.Find("Orage"),0.5f);
         }
         
         else if(collision.name == "Pluie"){
